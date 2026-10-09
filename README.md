@@ -90,3 +90,14 @@ Keep in mind, the setup file is intended for a fresh database. Meaning running i
 
 - [2025 Universal Registration Document](https://www.essilorluxottica.com/en/cap/content/284322/): business segment revenue on page 128, regional revenue and growth rates on page 130, and store counts on page 14.
 - [2024 Universal Registration Document](https://www.essilorluxottica.com/en/cap/content/247386/): store counts on page 13.
+
+The 2025 document includes the comparative 2024 revenue figures used in this project.
+
+## What the Data Covers and its Limitations
+
+- Revenue figures cover EssilorLuxottica. The reports do not provide separate Sunglass Hut revenue, so I was unable to measure Sunglass Hut's sales performance per store.
+- Sunglass Hut’s regional counts cover corporate stores. The chain comparison also includes franchised and licensed stores.
+- Year-end store counts show net changes, not the number of openings or closures during the year.
+- The four selected chains do not represent the company’s entire retail network.
+- Revenue is recorded in euros (in millions). The published 2024 segment figures sum to €26,507 million, while the company total is €26,508 million because of rounding. I kept the source figures as published.
+- Growth rates calculated from rounded revenue figures differ slightly from the published rates. The currency comparison uses the company’s published rates.
