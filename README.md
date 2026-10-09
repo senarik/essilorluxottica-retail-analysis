@@ -57,9 +57,33 @@ I checked the number of rows in each table and made sure the regional revenue to
 
 ## Project Files
 
-| File or Folder | Contents |
+| File | Contents |
 |---|---|
 | [SQL](SQL/) | Database setup, analysis queries, and row-count checks |
 | [Results](Results/) | Five CSV files exported from the analysis |
 | [Charts](Charts/) | Five charts exported from Excel |
 | [Excel workbook](EssilorLuxottica_Analysis.xlsx) | Summary, results tables, and charts |
+
+## Running the SQL
+
+Use PostgreSQL. I worked with PostgreSQL 18 and pgAdmin 4.
+
+1. Create a new empty database.
+2. Run SQL/01_setup.sql once to create and fill the five tables.
+3. Run the queries in SQL/02_segment_analysis.sql, SQL/03_regional_analysis.sql, and SQL/04_store_analysis.sql.
+4. Run SQL/05_data_checks.sql to check the table row counts.
+
+Expected row counts:
+
+| Table | Rows |
+|---|---:|
+| segment_revenue | 4 |
+| regional_revenue | 8 |
+| regional_growth_rates | 4 |
+| store_footprint | 8 |
+| store_ownership | 16 |
+
+Keep in mind, the setup file is intended for a fresh database. Meaning running it again in the same database will produce errors because the tables already exist.
+
+## Data Sources
+- [2025 Universal Registration Document](https://www.essilorluxottica.com/en/cap/content/284322/): business segment revenue on page 128, regional revenue and growth rates on page 130, and store counts on page 14.
