@@ -4,7 +4,8 @@
 I previously worked at Sunglass Hut as a sales associate, and it made me interested in creating a retail analysis project using real data from the company. I used EssilorLuxottica's annual reports from 2024 and 2025 to compare revenue across business segments, examine currency effects, and track changes in store counts.
 
 I used PostgreSQL for the analysis and Excel for the charts.
-Link to workbook: [EssilorLuxottica_Analysis.xlsx](https://github.com/user-attachments/files/33225882/EssilorLuxottica_Analysis.xlsx)
+
+[View the Excel workbook](EssilorLuxottica_Analysis.xlsx)
 
 ## What I looked into
 - Which business segment grew faster?
@@ -19,13 +20,13 @@ Link to workbook: [EssilorLuxottica_Analysis.xlsx](https://github.com/user-attac
 
 Professional Solutions revenue grew 8.39%, Direct to Consumer did 6.67%. Direct to Consumer remained to be the larger segment, with €14,891 million in revenue in 2025.
 
-Revenue by business segment: <img width="2593" height="993" alt="segment_revenue" src="https://github.com/user-attachments/assets/87a15870-4b3c-4709-90c2-259014d842ef" />
+![Revenue by business segment](Charts/segment_revenue.png)
 
 ### Revenue by Region
 
 EMEA (Europe, the Middle East, and Africa) added €1,020 million in revenue, which accounted for approx. 51.4% of the company’s total revenue increase. North America remained to be the largest region by revenue.
 
-Revenue by region: <img width="2587" height="1117" alt="regional_revenue" src="https://github.com/user-attachments/assets/b8fbdecd-496f-4fb4-882a-0613c0a5c4a4" />
+![Revenue by region](Charts/regional_revenue.png)
 
 ### Currency Effects
 
@@ -33,7 +34,7 @@ Latin America’s revenue declined 0.5% as reported, but grew 7.6% at constant e
 
 Constant currency growth compares revenue using consistent exchange rates. The gap is measured in percentage points, not euros.
 
-Reported and constant currency growth: <img width="1639" height="993" alt="currency_growth_comparison" src="https://github.com/user-attachments/assets/6d9c9bee-b699-4646-8906-ff12b58933a6" />
+![Reported and constant currency growth](Charts/currency_growth_comparison.png)
 
 ### Sunglass Hut Corporate Stores
 
