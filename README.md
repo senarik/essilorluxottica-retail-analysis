@@ -39,7 +39,7 @@ Reported and constant currency growth: <img width="1639" height="993" alt="curre
 
 Sunglass Hut’s corporate store count went down from 2,926 to 2,880 (net decrease of 46 stores). Latin America was the only region with an increase, with an addition of 21 stores. North America had the largest decrease, at 34 stores.
 
-Sunglass Hut corporate stores by region: <img width="2458" height="1030" alt="sunglass_hut_regional_stores" src="https://github.com/user-attachments/assets/119b2c1c-c250-47f1-a06b-138630faa094" />
+![Sunglass Hut corporate stores by region](Charts/sunglass_hut_regional_stores.png)
 
 ### Selected Retail Chains
 
@@ -47,7 +47,7 @@ Sunglass Hut had the most stores among the four selected chains in 2025, with 3,
 
 These totals include corporate, franchised, and licensed stores. Sunglass Hut’s franchised and licensed stores increased by 9, which partly offset the decrease in corporate stores.
 
-Selected retail chain store counts: <img width="1798" height="1028" alt="selected_chain_store_comparison" src="https://github.com/user-attachments/assets/55645bde-5851-4f11-9da1-0b748a79c5d5" />
+![Selected retail chain store counts](Charts/selected_chain_store_comparison.png)
 
 ## Details on the Analysis
 
@@ -86,4 +86,6 @@ Expected row counts:
 Keep in mind, the setup file is intended for a fresh database. Meaning running it again in the same database will produce errors because the tables already exist.
 
 ## Data Sources
+
 - [2025 Universal Registration Document](https://www.essilorluxottica.com/en/cap/content/284322/): business segment revenue on page 128, regional revenue and growth rates on page 130, and store counts on page 14.
+- [2024 Universal Registration Document](https://www.essilorluxottica.com/en/cap/content/247386/): store counts on page 13.
